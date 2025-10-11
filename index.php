@@ -535,7 +535,8 @@
                     <div class="service-content">
                         <h3>Luxury Manicures</h3>
                         <p>Indulge in our premium manicure services that leave your hands looking and feeling rejuvenated.</p>
-                     </div>
+                    </div>
+                </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-spa"></i>
@@ -544,9 +545,9 @@
                         <h3>Spa Pedicures</h3>
                         <p>Relax and unwind with our therapeutic pedicure treatments for soft, beautiful feet.</p>
                     </div>
+                </div>
                 <div class="service-card Ceremonial-card">
-                    <div class="ceremonial-badge">
-                    </div>
+                    <!-- <div class="ceremonial-badge">Special</div> -->
                     <div class="service-icon">
                         <i class="fas fa-ring"></i>
                     </div>
