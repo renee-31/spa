@@ -535,8 +535,7 @@
                     <div class="service-content">
                         <h3>Luxury Manicures</h3>
                         <p>Indulge in our premium manicure services that leave your hands looking and feeling rejuvenated.</p>
-                    </div>
-                </div>
+                     </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-spa"></i>
@@ -545,9 +544,9 @@
                         <h3>Spa Pedicures</h3>
                         <p>Relax and unwind with our therapeutic pedicure treatments for soft, beautiful feet.</p>
                     </div>
-                </div>
                 <div class="service-card Ceremonial-card">
-                    <div class="ceremonial-badge">Special</div>
+                    <div class="ceremonial-badge">
+                    </div>
                     <div class="service-icon">
                         <i class="fas fa-ring"></i>
                     </div>
@@ -593,7 +592,7 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>Welcome to Simon's Nail Spa</h2>
-                    <p>Located in the heart of Timau Town, Simon's Nail Spa has been providing exceptional nail care services for over 5 years. Our skilled technicians are dedicated to making every visit a relaxing and beautiful experience.</p>
+                    <p>Located in timau stage near Timau Stadium, Simon's Nail Spa has been providing exceptional nail care services for over 5 years. Our skilled technicians are dedicated to making every visit a relaxing and beautiful experience.</p>
                     <p>We specialize in ceremonial nail art, graduations, ruracio, weddings babyshowers etc helping our clients look and feel their best on their special day with custom designs that complement their wedding funtional theme.</p>
                     <div class="features">
                         <div class="feature">
@@ -616,7 +615,7 @@
                     <a href="#contact" class="btn" style="margin-top: 20px;">Visit Us Today</a>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixlib=rb-4.0.3" alt="Simon's Nail Spa Interior">
+                    <img src="https://i.pinimg.com/1200x/4c/7d/88/4c7d883fddff28527b3ebef0f115ff75.jpg" alt="Simon's Nail Spa Interior">
                 </div>
             </div>
         </div>
@@ -744,7 +743,7 @@
                         <select id="service" class="form-control">
                             <option value="manicure">Manicure</option>
                             <option value="pedicure">Pedicure</option>
-                            <option value="bridal">Ceremonial Nail Art</option>
+                            <option value="ceremonial">Ceremonial Nail Art</option>
                             <option value="gel">Gel Nails</option>
                             <option value="other">Other</option>
                         </select>
@@ -794,7 +793,7 @@
         });
 
         // Close mobile menu when clicking on a link
-        document.querySelectorAll('.mobile-nav a').forEach(link => {
+        document.querySelectorAll('.mobile-nav a').fo rEach(link => {
             link.addEventListener('click', function() {
                 document.querySelector('.mobile-nav').classList.remove('active');
             });
