@@ -640,7 +640,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <span>0115777875</span>
+                            <span>0757174989</span>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-clock"></i>
